@@ -21,7 +21,7 @@ export function Workshop() {
         </div>
         <Rule className="mt-5" />
 
-        <div className="mt-10 grid grid-cols-1 gap-10 md:mt-14 md:grid-cols-12 md:gap-10">
+        <div className="mt-8 grid grid-cols-1 gap-8 md:mt-10 md:grid-cols-12 md:gap-10">
           <div ref={ref} className="md:col-span-7">
             <figure>
               <div className="relative aspect-[4/5] overflow-hidden bg-charcoal md:aspect-[6/7]">
@@ -50,7 +50,7 @@ export function Workshop() {
               lines={['Knowledge first.', <em key="e" className="text-leather">Care, always.</em>]}
               className="font-serif text-[clamp(2.6rem,4.6vw,4.75rem)] leading-[0.98] font-light tracking-[-0.01em]"
             />
-            <span aria-hidden="true" className="my-8 block h-px w-10 bg-brass" />
+            <span aria-hidden="true" className="my-6 block h-px w-10 bg-brass" />
             <div className="flex flex-col gap-6">
               <Reveal>
                 <p className="text-[0.98rem] leading-[1.85] text-charcoal/75">

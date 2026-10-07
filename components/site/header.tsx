@@ -78,7 +78,9 @@ export function Header() {
             onClick={() => setOpen((v) => !v)}
             aria-expanded={open}
             aria-controls="mobile-menu"
-            className="eyebrow relative z-[60] flex items-center gap-3 lg:hidden"
+            aria-label={open ? 'Close navigation menu' : 'Open navigation menu'}
+            className="eyebrow relative z-[60] flex min-h-11 min-w-11 items-center justify-end gap-3 lg:hidden"
+            data-menu-toggle
           >
             <span>{open ? 'Close' : 'Menu'}</span>
             <span aria-hidden="true" className="relative block h-2.5 w-6">

@@ -141,7 +141,7 @@ export function Craftsmanship() {
             <DetailViewer active={active} />
           </div>
 
-          <div className="flex flex-col justify-center gap-10 md:col-span-5 md:gap-12 md:col-start-8 lg:col-span-4 lg:col-start-9">
+          <div className="flex flex-col justify-center gap-8 md:col-span-5 md:gap-9 md:col-start-8 lg:col-span-4 lg:col-start-9">
             <Reveal>
               <p className="font-serif text-[clamp(1.75rem,2.8vw,2.75rem)] leading-[1.12] font-light italic text-ivory/90">
                 Natural texture, quiet character.
@@ -158,7 +158,7 @@ export function Craftsmanship() {
                   onClick={() => setActive(i)}
                   onMouseEnter={() => setActive(i)}
                   onFocus={() => setActive(i)}
-                  className="group relative border-t border-ivory/12 py-7 text-left last:border-b"
+                  className="group relative border-t border-ivory/12 py-5 text-left last:border-b md:py-6"
                 >
                   <span
                     aria-hidden="true"

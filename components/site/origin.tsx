@@ -49,14 +49,14 @@ export function Origin() {
           as="h2"
           id="story-title"
           lines={['Some connections', <em key="e">change everything.</em>]}
-          className="text-display mt-10 max-w-[14ch] text-[clamp(2.75rem,7vw,7.5rem)] md:mt-14"
+          className="text-display mt-6 max-w-[14ch] text-[clamp(2.75rem,7vw,7.5rem)] md:mt-10"
         />
 
         <div className="mt-12 grid grid-cols-1 gap-12 md:mt-16 md:grid-cols-12 md:gap-10">
           <div className="md:col-span-6 lg:col-span-5">
             <p
               aria-label="25+ years of experience with horses and equestrian care"
-              className="font-serif text-[clamp(9rem,27vw,25rem)] leading-[0.78] font-light tracking-[-0.05em]"
+              className="font-serif text-[clamp(9rem,24vw,18rem)] leading-[0.7] font-light tracking-[-0.05em]"
             >
               <span aria-hidden="true">
                 <CountUp to={25} />
